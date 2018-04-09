@@ -9,8 +9,8 @@
 import UIKit
 import SceneKit
 import ARKit
-
-class ViewController: UIViewController, ARSCNViewDelegate {
+import Reusable
+class ViewController: UIViewController, ARSCNViewDelegate,StoryboardBased {
 
     @IBOutlet var sceneView: ARSCNView!
     

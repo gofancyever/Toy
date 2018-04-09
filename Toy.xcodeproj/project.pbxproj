@@ -17,6 +17,7 @@
 		BC640AF4207B6DE2009481BB /* OEToyHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC640AF2207B6DE2009481BB /* OEToyHomeCell.swift */; };
 		BC640AF5207B6DE2009481BB /* OEToyHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC640AF3207B6DE2009481BB /* OEToyHomeCell.xib */; };
 		BC640AF7207B7268009481BB /* OEToyHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC640AF6207B7268009481BB /* OEToyHomeController.swift */; };
+		D30C5B5C207BA2F8008473D7 /* OEToyDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30C5B5B207BA2F8008473D7 /* OEToyDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		BC640AF3207B6DE2009481BB /* OEToyHomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OEToyHomeCell.xib; sourceTree = "<group>"; };
 		BC640AF6207B7268009481BB /* OEToyHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEToyHomeController.swift; sourceTree = "<group>"; };
 		BF39FB0CCF25CBB822A328F6 /* Pods-Toy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Toy/Pods-Toy.release.xcconfig"; sourceTree = "<group>"; };
+		D30C5B5B207BA2F8008473D7 /* OEToyDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEToyDetailController.swift; sourceTree = "<group>"; };
 		DD223BCD4B8F364BB8EB2B80 /* Pods-Toy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Toy/Pods-Toy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 				BC640AF2207B6DE2009481BB /* OEToyHomeCell.swift */,
 				BC640AF3207B6DE2009481BB /* OEToyHomeCell.xib */,
 				BC640AF6207B7268009481BB /* OEToyHomeController.swift */,
+				D30C5B5B207BA2F8008473D7 /* OEToyDetailController.swift */,
 			);
 			path = Toy;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			files = (
 				BC640AE3207B6750009481BB /* ViewController.swift in Sources */,
 				BC640AF7207B7268009481BB /* OEToyHomeController.swift in Sources */,
+				D30C5B5C207BA2F8008473D7 /* OEToyDetailController.swift in Sources */,
 				BC640ADF207B6750009481BB /* AppDelegate.swift in Sources */,
 				BC640AF4207B6DE2009481BB /* OEToyHomeCell.swift in Sources */,
 			);

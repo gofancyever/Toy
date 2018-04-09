@@ -8,8 +8,13 @@
 
 import UIKit
 import Reusable
-class OEToyHomeCell: UICollectionViewCell,Reusable {
+import SwiftyStarRatingView
+class OEToyHomeCell: UICollectionViewCell,NibReusable {
 
+    @IBOutlet weak var lab_year: UILabel!
+    @IBOutlet weak var grade: SwiftyStarRatingView!
+    @IBOutlet weak var lab_title: UILabel!
+    @IBOutlet weak var img_bg: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
