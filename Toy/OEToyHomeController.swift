@@ -9,6 +9,7 @@
 import UIKit
 import Reusable
 import SwiftyStarRatingView
+import Hero
 class OEToyHomeController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
@@ -36,8 +37,13 @@ class OEToyHomeController: UIViewController {
 }
 extension OEToyHomeController:UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let viewVC = OEToyDetailController.instantiate()
-        self.navigationController?.pushViewController(viewVC, animated: true)
+        let viewVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "OEToyDetailNavController") as! UINavigationController
+        let detailVC = viewVC.topViewController as! OEToyDetailController
+        detailVC.indexPath = indexPath
+        
+        DispatchQueue.main.async {
+            self.present(viewVC, animated: true, completion: nil)
+        }
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.dataSource.count
@@ -49,6 +55,10 @@ extension OEToyHomeController:UICollectionViewDelegate,UICollectionViewDataSourc
         cell.lab_title.text = data["title"]
         cell.grade.value = CGFloat(indexPath.row % 5)
         cell.lab_year.text = "\(indexPath.row % 12)"
+        
+        cell.img_bg.hero.id = "tpy_img_\(indexPath.item)"
+        cell.lab_title.hero.id = "toy_title_\(indexPath.item)"
+        cell.view_info.hero.id = "toy_info_\(indexPath.item)"
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

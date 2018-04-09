@@ -24,6 +24,9 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timg" translatesAutoresizingMaskIntoConstraints="NO" id="b07-6U-dx3">
                                 <rect key="frame" x="0.0" y="0.0" width="168" height="190"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="toy_img"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ev6-gI-g9H">
                                 <rect key="frame" x="0.0" y="146" width="168" height="44"/>
@@ -110,6 +113,9 @@
                                     <constraint firstAttribute="height" constant="44" id="bdQ-iP-yn4"/>
                                 </constraints>
                                 <blurEffect style="light"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="toy_info"/>
+                                </userDefinedRuntimeAttributes>
                             </visualEffectView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLY-Yh-3eB">
                                 <rect key="frame" x="8" y="104" width="50" height="35"/>
@@ -122,6 +128,9 @@
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="toy_title"/>
+                                </userDefinedRuntimeAttributes>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -157,6 +166,7 @@
                 <outlet property="img_bg" destination="b07-6U-dx3" id="fsu-Mh-aCY"/>
                 <outlet property="lab_title" destination="ZLY-Yh-3eB" id="MLc-8x-iwx"/>
                 <outlet property="lab_year" destination="R7V-Rp-bdz" id="fBh-XZ-IND"/>
+                <outlet property="view_info" destination="Ev6-gI-g9H" id="qHW-C4-vyM"/>
             </connections>
             <point key="canvasLocation" x="-30" y="129"/>
         </collectionViewCell>

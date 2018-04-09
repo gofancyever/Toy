@@ -11,6 +11,7 @@ import Reusable
 import SwiftyStarRatingView
 class OEToyHomeCell: UICollectionViewCell,NibReusable {
 
+    @IBOutlet weak var view_info: UIVisualEffectView!
     @IBOutlet weak var lab_year: UILabel!
     @IBOutlet weak var grade: SwiftyStarRatingView!
     @IBOutlet weak var lab_title: UILabel!
