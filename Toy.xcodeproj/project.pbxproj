@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90DEDFA6ADD54AC930396880 /* Pods_Toy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8149E0C23539005C7DE69927 /* Pods_Toy.framework */; };
 		BC640ADF207B6750009481BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC640ADE207B6750009481BB /* AppDelegate.swift */; };
 		BC640AE1207B6750009481BB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BC640AE0207B6750009481BB /* art.scnassets */; };
 		BC640AE3207B6750009481BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC640AE2207B6750009481BB /* ViewController.swift */; };
 		BC640AE6207B6750009481BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC640AE4207B6750009481BB /* Main.storyboard */; };
 		BC640AE8207B6750009481BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC640AE7207B6750009481BB /* Assets.xcassets */; };
 		BC640AEB207B6750009481BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC640AE9207B6750009481BB /* LaunchScreen.storyboard */; };
+		BC640AF4207B6DE2009481BB /* OEToyHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC640AF2207B6DE2009481BB /* OEToyHomeCell.swift */; };
+		BC640AF5207B6DE2009481BB /* OEToyHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC640AF3207B6DE2009481BB /* OEToyHomeCell.xib */; };
+		BC640AF7207B7268009481BB /* OEToyHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC640AF6207B7268009481BB /* OEToyHomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8149E0C23539005C7DE69927 /* Pods_Toy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Toy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC640ADB207B6750009481BB /* Toy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC640ADE207B6750009481BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC640AE0207B6750009481BB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		BC640AE7207B6750009481BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC640AEA207B6750009481BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC640AEC207B6750009481BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC640AF2207B6DE2009481BB /* OEToyHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEToyHomeCell.swift; sourceTree = "<group>"; };
+		BC640AF3207B6DE2009481BB /* OEToyHomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OEToyHomeCell.xib; sourceTree = "<group>"; };
+		BC640AF6207B7268009481BB /* OEToyHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEToyHomeController.swift; sourceTree = "<group>"; };
+		BF39FB0CCF25CBB822A328F6 /* Pods-Toy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Toy/Pods-Toy.release.xcconfig"; sourceTree = "<group>"; };
+		DD223BCD4B8F364BB8EB2B80 /* Pods-Toy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Toy/Pods-Toy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90DEDFA6ADD54AC930396880 /* Pods_Toy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				BC640ADD207B6750009481BB /* Toy */,
 				BC640ADC207B6750009481BB /* Products */,
+				CAC0961781E3DD636252D8B3 /* Pods */,
+				EEFFC741AB26C551F6F2C4E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +76,28 @@
 				BC640AE7207B6750009481BB /* Assets.xcassets */,
 				BC640AE9207B6750009481BB /* LaunchScreen.storyboard */,
 				BC640AEC207B6750009481BB /* Info.plist */,
+				BC640AF2207B6DE2009481BB /* OEToyHomeCell.swift */,
+				BC640AF3207B6DE2009481BB /* OEToyHomeCell.xib */,
+				BC640AF6207B7268009481BB /* OEToyHomeController.swift */,
 			);
 			path = Toy;
+			sourceTree = "<group>";
+		};
+		CAC0961781E3DD636252D8B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD223BCD4B8F364BB8EB2B80 /* Pods-Toy.debug.xcconfig */,
+				BF39FB0CCF25CBB822A328F6 /* Pods-Toy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEFFC741AB26C551F6F2C4E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8149E0C23539005C7DE69927 /* Pods_Toy.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC640AEF207B6750009481BB /* Build configuration list for PBXNativeTarget "Toy" */;
 			buildPhases = (
+				FF43B0D10CB71B172CF90D1E /* [CP] Check Pods Manifest.lock */,
 				BC640AD7207B6750009481BB /* Sources */,
 				BC640AD8207B6750009481BB /* Frameworks */,
 				BC640AD9207B6750009481BB /* Resources */,
+				6B22F36A900B41CF5EF5B423 /* [CP] Embed Pods Frameworks */,
+				0F343C59D10773B5DBFA2C9D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,11 +165,78 @@
 				BC640AE1207B6750009481BB /* art.scnassets in Resources */,
 				BC640AEB207B6750009481BB /* LaunchScreen.storyboard in Resources */,
 				BC640AE8207B6750009481BB /* Assets.xcassets in Resources */,
+				BC640AF5207B6DE2009481BB /* OEToyHomeCell.xib in Resources */,
 				BC640AE6207B6750009481BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F343C59D10773B5DBFA2C9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Toy/Pods-Toy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B22F36A900B41CF5EF5B423 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Toy/Pods-Toy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/LLCycleScrollView/LLCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStarRatingView/SwiftyStarRatingView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStarRatingView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Toy/Pods-Toy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF43B0D10CB71B172CF90D1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Toy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BC640AD7207B6750009481BB /* Sources */ = {
@@ -141,7 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC640AE3207B6750009481BB /* ViewController.swift in Sources */,
+				BC640AF7207B7268009481BB /* OEToyHomeController.swift in Sources */,
 				BC640ADF207B6750009481BB /* AppDelegate.swift in Sources */,
+				BC640AF4207B6DE2009481BB /* OEToyHomeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +381,7 @@
 		};
 		BC640AF0207B6750009481BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD223BCD4B8F364BB8EB2B80 /* Pods-Toy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +397,7 @@
 		};
 		BC640AF1207B6750009481BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF39FB0CCF25CBB822A328F6 /* Pods-Toy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

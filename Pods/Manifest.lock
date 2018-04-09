@@ -1,0 +1,34 @@
+PODS:
+  - ESTabBarController-swift (2.6.1)
+  - Hero (1.1.0)
+  - IBAnimatable (5.0.0)
+  - Kingfisher (4.6.4)
+  - LLCycleScrollView (1.4.6):
+    - Kingfisher
+  - Reusable (4.0.2):
+    - Reusable/Storyboard (= 4.0.2)
+    - Reusable/View (= 4.0.2)
+  - Reusable/Storyboard (4.0.2)
+  - Reusable/View (4.0.2)
+  - SwiftyStarRatingView (1.0.4)
+
+DEPENDENCIES:
+  - ESTabBarController-swift
+  - Hero
+  - IBAnimatable
+  - LLCycleScrollView
+  - Reusable
+  - SwiftyStarRatingView
+
+SPEC CHECKSUMS:
+  ESTabBarController-swift: 1e629e60bc6a87c1ea92a5309489b9f8dde15fa2
+  Hero: ce59e81c79390613d97b43da7179e2c5e1017e04
+  IBAnimatable: aa2286a9cf8fb4ae2e1be85c5287ae56143b024f
+  Kingfisher: 68498a706e46c2a050b0c9572f100e5db407f6e0
+  LLCycleScrollView: 2f309d229937b755b3ecc41f39caa8b27bd86fa9
+  Reusable: 584a5629747c52e0f6a77841b400dc2643f6fa0f
+  SwiftyStarRatingView: a2b0057700e0adeb8e7442c55d99cb53b531d2f4
+
+PODFILE CHECKSUM: 6d1d9684bc9420a9cd6a734b67badddda81f32b8
+
+COCOAPODS: 1.3.1
