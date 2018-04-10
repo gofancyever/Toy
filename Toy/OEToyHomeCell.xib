@@ -147,7 +147,7 @@
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                <real key="value" value="10"/>
+                                <real key="value" value="4"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
@@ -164,8 +164,10 @@
             <connections>
                 <outlet property="grade" destination="hWP-2g-Xks" id="aSg-HL-Ty7"/>
                 <outlet property="img_bg" destination="b07-6U-dx3" id="fsu-Mh-aCY"/>
+                <outlet property="lab_grade" destination="egC-1g-EZY" id="vB3-yH-K80"/>
                 <outlet property="lab_title" destination="ZLY-Yh-3eB" id="MLc-8x-iwx"/>
-                <outlet property="lab_year" destination="R7V-Rp-bdz" id="fBh-XZ-IND"/>
+                <outlet property="lab_year" destination="R7V-Rp-bdz" id="SEL-R5-QVq"/>
+                <outlet property="lab_year_title" destination="f3P-cf-Pbr" id="a3Q-0V-Yco"/>
                 <outlet property="view_info" destination="Ev6-gI-g9H" id="qHW-C4-vyM"/>
             </connections>
             <point key="canvasLocation" x="-30" y="129"/>

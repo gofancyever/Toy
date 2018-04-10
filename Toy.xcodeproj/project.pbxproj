@@ -17,6 +17,17 @@
 		BC640AF4207B6DE2009481BB /* OEToyHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC640AF2207B6DE2009481BB /* OEToyHomeCell.swift */; };
 		BC640AF5207B6DE2009481BB /* OEToyHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC640AF3207B6DE2009481BB /* OEToyHomeCell.xib */; };
 		BC640AF7207B7268009481BB /* OEToyHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC640AF6207B7268009481BB /* OEToyHomeController.swift */; };
+		BCF9E5E5207C54B9002CF65D /* OEToolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9E5E3207C54B9002CF65D /* OEToolCell.swift */; };
+		BCF9E5E6207C54B9002CF65D /* OEToolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF9E5E4207C54B9002CF65D /* OEToolCell.xib */; };
+		BCF9E5E9207C5838002CF65D /* OERawCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9E5E7207C5838002CF65D /* OERawCell.swift */; };
+		BCF9E5EA207C5838002CF65D /* OERawCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF9E5E8207C5838002CF65D /* OERawCell.xib */; };
+		BCF9E5ED207C6236002CF65D /* OECommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9E5EB207C6236002CF65D /* OECommunityCell.swift */; };
+		BCF9E5EE207C6236002CF65D /* OECommunityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF9E5EC207C6236002CF65D /* OECommunityCell.xib */; };
+		BCF9E5F1207C88B0002CF65D /* OEToyHomeHerderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9E5EF207C88B0002CF65D /* OEToyHomeHerderView.swift */; };
+		BCF9E5F2207C88B0002CF65D /* OEToyHomeHerderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF9E5F0207C88B0002CF65D /* OEToyHomeHerderView.xib */; };
+		BCF9E5F5207C923A002CF65D /* OEStoreHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9E5F3207C923A002CF65D /* OEStoreHomeCell.swift */; };
+		BCF9E5F6207C923A002CF65D /* OEStoreHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF9E5F4207C923A002CF65D /* OEStoreHomeCell.xib */; };
+		BCF9E5F8207C9486002CF65D /* OEToyStoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9E5F7207C9486002CF65D /* OEToyStoreController.swift */; };
 		D30C5B5C207BA2F8008473D7 /* OEToyDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30C5B5B207BA2F8008473D7 /* OEToyDetailController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +44,17 @@
 		BC640AF2207B6DE2009481BB /* OEToyHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEToyHomeCell.swift; sourceTree = "<group>"; };
 		BC640AF3207B6DE2009481BB /* OEToyHomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OEToyHomeCell.xib; sourceTree = "<group>"; };
 		BC640AF6207B7268009481BB /* OEToyHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEToyHomeController.swift; sourceTree = "<group>"; };
+		BCF9E5E3207C54B9002CF65D /* OEToolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEToolCell.swift; sourceTree = "<group>"; };
+		BCF9E5E4207C54B9002CF65D /* OEToolCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OEToolCell.xib; sourceTree = "<group>"; };
+		BCF9E5E7207C5838002CF65D /* OERawCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OERawCell.swift; sourceTree = "<group>"; };
+		BCF9E5E8207C5838002CF65D /* OERawCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OERawCell.xib; sourceTree = "<group>"; };
+		BCF9E5EB207C6236002CF65D /* OECommunityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OECommunityCell.swift; sourceTree = "<group>"; };
+		BCF9E5EC207C6236002CF65D /* OECommunityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OECommunityCell.xib; sourceTree = "<group>"; };
+		BCF9E5EF207C88B0002CF65D /* OEToyHomeHerderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEToyHomeHerderView.swift; sourceTree = "<group>"; };
+		BCF9E5F0207C88B0002CF65D /* OEToyHomeHerderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OEToyHomeHerderView.xib; sourceTree = "<group>"; };
+		BCF9E5F3207C923A002CF65D /* OEStoreHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEStoreHomeCell.swift; sourceTree = "<group>"; };
+		BCF9E5F4207C923A002CF65D /* OEStoreHomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OEStoreHomeCell.xib; sourceTree = "<group>"; };
+		BCF9E5F7207C9486002CF65D /* OEToyStoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEToyStoreController.swift; sourceTree = "<group>"; };
 		BF39FB0CCF25CBB822A328F6 /* Pods-Toy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Toy/Pods-Toy.release.xcconfig"; sourceTree = "<group>"; };
 		D30C5B5B207BA2F8008473D7 /* OEToyDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEToyDetailController.swift; sourceTree = "<group>"; };
 		DD223BCD4B8F364BB8EB2B80 /* Pods-Toy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Toy/Pods-Toy.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +104,17 @@
 				BC640AF3207B6DE2009481BB /* OEToyHomeCell.xib */,
 				BC640AF6207B7268009481BB /* OEToyHomeController.swift */,
 				D30C5B5B207BA2F8008473D7 /* OEToyDetailController.swift */,
+				BCF9E5E3207C54B9002CF65D /* OEToolCell.swift */,
+				BCF9E5E4207C54B9002CF65D /* OEToolCell.xib */,
+				BCF9E5E7207C5838002CF65D /* OERawCell.swift */,
+				BCF9E5E8207C5838002CF65D /* OERawCell.xib */,
+				BCF9E5EB207C6236002CF65D /* OECommunityCell.swift */,
+				BCF9E5EC207C6236002CF65D /* OECommunityCell.xib */,
+				BCF9E5EF207C88B0002CF65D /* OEToyHomeHerderView.swift */,
+				BCF9E5F0207C88B0002CF65D /* OEToyHomeHerderView.xib */,
+				BCF9E5F3207C923A002CF65D /* OEStoreHomeCell.swift */,
+				BCF9E5F4207C923A002CF65D /* OEStoreHomeCell.xib */,
+				BCF9E5F7207C9486002CF65D /* OEToyStoreController.swift */,
 			);
 			path = Toy;
 			sourceTree = "<group>";
@@ -166,10 +199,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC640AE1207B6750009481BB /* art.scnassets in Resources */,
+				BCF9E5F2207C88B0002CF65D /* OEToyHomeHerderView.xib in Resources */,
 				BC640AEB207B6750009481BB /* LaunchScreen.storyboard in Resources */,
 				BC640AE8207B6750009481BB /* Assets.xcassets in Resources */,
+				BCF9E5F6207C923A002CF65D /* OEStoreHomeCell.xib in Resources */,
+				BCF9E5E6207C54B9002CF65D /* OEToolCell.xib in Resources */,
 				BC640AF5207B6DE2009481BB /* OEToyHomeCell.xib in Resources */,
+				BCF9E5EE207C6236002CF65D /* OECommunityCell.xib in Resources */,
 				BC640AE6207B6750009481BB /* Main.storyboard in Resources */,
+				BCF9E5EA207C5838002CF65D /* OERawCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +285,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC640AE3207B6750009481BB /* ViewController.swift in Sources */,
+				BCF9E5ED207C6236002CF65D /* OECommunityCell.swift in Sources */,
 				BC640AF7207B7268009481BB /* OEToyHomeController.swift in Sources */,
 				D30C5B5C207BA2F8008473D7 /* OEToyDetailController.swift in Sources */,
+				BCF9E5E9207C5838002CF65D /* OERawCell.swift in Sources */,
 				BC640ADF207B6750009481BB /* AppDelegate.swift in Sources */,
+				BCF9E5F5207C923A002CF65D /* OEStoreHomeCell.swift in Sources */,
+				BCF9E5F8207C9486002CF65D /* OEToyStoreController.swift in Sources */,
+				BCF9E5F1207C88B0002CF65D /* OEToyHomeHerderView.swift in Sources */,
 				BC640AF4207B6DE2009481BB /* OEToyHomeCell.swift in Sources */,
+				BCF9E5E5207C54B9002CF65D /* OEToolCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

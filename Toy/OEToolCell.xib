@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OEToolCell" id="gTV-IL-0wX" customClass="OEToolCell" customModule="Toy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="242"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="242"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l8J-Z0-Ekm" customClass="AnimatableView" customModule="IBAnimatable">
+                        <rect key="frame" x="8" y="8" width="184" height="226"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timg-2" translatesAutoresizingMaskIntoConstraints="NO" id="P1W-F8-Joe">
+                                <rect key="frame" x="0.0" y="0.0" width="184" height="170"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xIg-af-Jld">
+                                <rect key="frame" x="0.0" y="170" width="184" height="56"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="xmI-Sl-88f">
+                                    <rect key="frame" x="0.0" y="0.0" width="184" height="56"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="折纸套件一" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUV-FU-TJy">
+                                            <rect key="frame" x="8" y="8" width="87" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="包含:剪刀,尺子,胶水" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KqU-HP-SmE">
+                                            <rect key="frame" x="8" y="32" width="117.5" height="16"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" red="0.45882352939999999" green="0.50588235290000005" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="eUV-FU-TJy" firstAttribute="top" secondItem="xmI-Sl-88f" secondAttribute="top" constant="8" id="8il-TY-Hgb"/>
+                                        <constraint firstItem="KqU-HP-SmE" firstAttribute="leading" secondItem="xmI-Sl-88f" secondAttribute="leading" constant="8" id="LZ8-rD-GHy"/>
+                                        <constraint firstItem="eUV-FU-TJy" firstAttribute="leading" secondItem="xmI-Sl-88f" secondAttribute="leading" constant="8" id="WaP-Na-WcY"/>
+                                        <constraint firstAttribute="bottom" secondItem="KqU-HP-SmE" secondAttribute="bottom" constant="8" id="eFQ-Sv-rxv"/>
+                                        <constraint firstItem="KqU-HP-SmE" firstAttribute="top" secondItem="eUV-FU-TJy" secondAttribute="bottom" constant="3" id="ovW-JI-ZTd"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xIg-af-Jld" secondAttribute="trailing" id="5Id-Yu-Xxx"/>
+                            <constraint firstAttribute="bottom" secondItem="xIg-af-Jld" secondAttribute="bottom" id="HMw-vl-CEL"/>
+                            <constraint firstItem="xIg-af-Jld" firstAttribute="leading" secondItem="l8J-Z0-Ekm" secondAttribute="leading" id="VVq-9c-Cbs"/>
+                            <constraint firstItem="P1W-F8-Joe" firstAttribute="top" secondItem="l8J-Z0-Ekm" secondAttribute="top" id="WmN-H6-UKI"/>
+                            <constraint firstItem="P1W-F8-Joe" firstAttribute="leading" secondItem="Pzu-1b-icZ" secondAttribute="leading" id="fgd-xj-yb1"/>
+                            <constraint firstItem="xIg-af-Jld" firstAttribute="top" secondItem="P1W-F8-Joe" secondAttribute="bottom" id="fmw-cE-LNB"/>
+                            <constraint firstItem="P1W-F8-Joe" firstAttribute="trailing" secondItem="Pzu-1b-icZ" secondAttribute="trailing" id="l4n-rX-9WU"/>
+                            <constraint firstAttribute="bottom" secondItem="P1W-F8-Joe" secondAttribute="bottom" constant="56" id="scX-j6-Evk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Pzu-1b-icZ"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="l8J-Z0-Ekm" secondAttribute="trailing" constant="8" id="Iub-sd-fYl"/>
+                <constraint firstAttribute="bottom" secondItem="l8J-Z0-Ekm" secondAttribute="bottom" constant="8" id="nN8-Q8-gnh"/>
+                <constraint firstItem="l8J-Z0-Ekm" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="nPs-o1-O6G"/>
+                <constraint firstItem="l8J-Z0-Ekm" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="vx7-Oo-6Qp"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="200" height="242"/>
+            <point key="canvasLocation" x="-38" y="206"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="timg-2" width="1100" height="658"/>
+    </resources>
+</document>
