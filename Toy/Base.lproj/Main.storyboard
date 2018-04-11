@@ -544,7 +544,6 @@
         <!--Root View Controller-->
         <scene sceneID="iHw-VO-FfV">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LAm-oY-r3a" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="ubI-yI-L7J" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Qgx-fD-yoN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -587,6 +586,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="HuH-a5-cK1"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LAm-oY-r3a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3508" y="406"/>
         </scene>

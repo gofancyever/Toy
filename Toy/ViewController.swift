@@ -28,8 +28,27 @@ class ViewController: UIViewController, ARSCNViewDelegate,StoryboardBased {
         
         // Set the scene to the view
         sceneView.scene = scene
+        
+        let pan = UIPanGestureRecognizer(target: self, action: #selector(handlePanGes(ges:)))
+        view.addGestureRecognizer(pan)
     }
     
+    @objc
+    func handlePanGes(ges:UIGestureRecognizer) {
+        guard let currentFranem = sceneView.session.currentFrame else {
+            return
+        }
+        let imagePlane = SCNPlane(width: sceneView.bounds.width/6000, height: sceneView.bounds.height/6000)
+        imagePlane.firstMaterial?.diffuse.contents = sceneView.snapshot()
+        imagePlane.firstMaterial?.lightingModel = .constant
+        
+        let planeNodes = SCNNode(geometry: imagePlane)
+        sceneView.scene.rootNode.addChildNode(planeNodes)
+        
+        var translation = matrix_identity_float4x4
+        translation.columns.3.z = -0.1
+        planeNodes.simdTransform = matrix_multiply(currentFranem.camera.transform, translation)
+    }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
